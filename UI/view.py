@@ -29,7 +29,7 @@ class View:
         # Intestazione
         self.txt_titolo = ft.Text(value="Gestione Rete Bancaria", size=38, weight=ft.FontWeight.BOLD)
 
-        # Importo Medio Minimo
+        # Importo Medio Minimo, casella in cui si inserisci l'importo soglia in input
         self.importo_medio_minimo = ft.TextField(label="Importo medio minimo (€)", width=300)
         pulsante_analizza = ft.Button("Analizza Filiali",
                                       on_click=self.controller.mostra_collegamenti)
